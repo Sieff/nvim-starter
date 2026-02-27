@@ -1,0 +1,16 @@
+goto definition gd
+show usages gr
+move lines v + alt jk
+tab lines v  >
+untab lines v  <
+rename leader c r
+find in files leader sg
+find in current file s
+debugger
+autosave done
+terminal passive esc esc -> move window
+color scheme done
+git undo leader ghr
+git show hunk leader ghp
+git committing done
+run configs
