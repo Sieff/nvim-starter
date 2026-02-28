@@ -1,3 +1,5 @@
+# nvim $PROFILE
+
 oh-my-posh init pwsh | Invoke-Expression
 if ((Get-Service ssh-agent).Status -ne 'Running') {
     Start-Service ssh-agent
